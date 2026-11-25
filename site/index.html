@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class Timetable</title>
+<meta name="description" content="Readable weekly timetable and calendar feeds for every group.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='5' width='26' height='24' rx='4' fill='%232f6fdf'/%3E%3Crect x='3' y='5' width='26' height='7' rx='3' fill='%231d4fb0'/%3E%3Crect x='8' y='16' width='6' height='5' rx='1' fill='white'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <h1>Timetable</h1>
+    <div class="picker">
+      <label for="group" class="sr">Group</label>
+      <select id="group" aria-label="Your group"><option>Loading…</option></select>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p id="error" class="error" hidden></p>
+
+  <section id="today" class="card" aria-live="polite"></section>
+
+  <section class="card">
+    <div class="weekbar">
+      <button id="prev" class="icon-btn" aria-label="Previous week">‹</button>
+      <div class="weeklabel"><strong id="weeklabel"></strong><span id="weeknote"></span></div>
+      <button id="next" class="icon-btn" aria-label="Next week">›</button>
+      <button id="thisweek" class="btn ghost">This week</button>
+    </div>
+    <div id="notes"></div>
+    <div id="week" class="week"></div>
+  </section>
+
+  <section class="card" id="subscribe">
+    <h2>Add to your calendar</h2>
+    <p class="muted">Subscribe once and your calendar app keeps itself updated. Calendar apps re-check on their own schedule (Google: often several hours or more), so for last-minute room changes check this page.</p>
+    <div class="feedrow">
+      <input id="feedurl" readonly aria-label="Calendar feed URL">
+      <button id="copy" class="btn">Copy URL</button>
+    </div>
+    <div class="subs">
+      <a id="sub-google" class="btn" target="_blank" rel="noopener">Google Calendar</a>
+      <a id="sub-webcal" class="btn">Apple / Thunderbird / KDE</a>
+      <a id="sub-download" class="btn ghost" download>Download .ics (no updates)</a>
+    </div>
+    <details>
+      <summary>Proton Calendar</summary>
+      <ol>
+        <li>Copy the URL above.</li>
+        <li>In Proton Calendar (web): <em>Settings → Calendars → Add calendar → Add calendar from URL</em>.</li>
+        <li>Paste the URL and save.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>Google Calendar (manual)</summary>
+      <ol>
+        <li>Copy the URL above.</li>
+        <li>On a computer, open Google Calendar → <em>Other calendars → + → From URL</em>.</li>
+        <li>Paste and click <em>Add calendar</em>. It then syncs to your phone too.</li>
+      </ol>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap foot muted">
+  <p>Unofficial. Generated automatically from the <a id="source" target="_blank" rel="noopener">published timetable</a>; if something looks wrong, the official sheet wins.</p>
+  <p id="updated"></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

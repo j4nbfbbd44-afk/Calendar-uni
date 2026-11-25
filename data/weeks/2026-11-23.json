@@ -1,0 +1,6795 @@
+{
+ "groups": [
+  {
+   "events": [
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Биофармация №220 Божбанбаева"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Фарм. биотех №117 Божбанбаева"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Рег. лекар средств Картбаева №116"
+    },
+    {
+     "day": 5,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Хим. токс. №117 Оналбек"
+    }
+   ],
+   "name": "Ф 22-01 каз",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 5 курс 9 семестр / Pharmacy 5 course 9 semester - 15 недель / 15 weeks",
+   "slug": "f-22-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Биофармация №117 Божбанбаева"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Рег. лекар средств №117 Джиенбаланов"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Фарм. биотех №320 Айтжан"
+    },
+    {
+     "day": 2,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "Хим. токс. №116 Оналбек"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Хим. токс. №117 Оналбек"
+    }
+   ],
+   "name": "Ф 22-01 рус",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 5 курс 9 семестр / Pharmacy 5 course 9 semester - 15 недель / 15 weeks",
+   "slug": "f-22-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Biopharmaceutics №117 Bozhbanbayeva"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "CTA Poison. №222 Hassan"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Pharm. Biotech. №116 Qudaibergenova"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Drug Reg. №117 Jiyenbalanov"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "CTA Poison. №117 Hassan"
+    }
+   ],
+   "name": "F 22-01 eng",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 5 курс 9 семестр / Pharmacy 5 course 9 semester - 15 недель / 15 weeks",
+   "slug": "f-22-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стан. лек. сред. Джиенбаланов №220"
+    },
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Фармакотерапия Байманова №221"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Фармакотерапия Байманова №201"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "ПТЛ №109 Калимбетова"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "ПСДЛС №109 Божбанбаева"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "ПСДЛС №202 Божбанбаева"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПСДЛС №201 Божбанбаева"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Стан. лек. сред. Джиенбаланов №212"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "ПТЛ №109 Калимбетова"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "ПТЛ №314 Калимбетова"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 10",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Фарм. стат. әдіс. Абсаттарова 10 ауд"
+    }
+   ],
+   "name": "Ф 23-01 каз",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 4 курс 7 семестр / Pharmacy 4 course 7 semester- 15 недель / 15 weeks",
+   "slug": "f-23-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПТЛ №320 Айдарбекова"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Стан. лек. сред. Толенова №116"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПТЛ №109 Айдарбекова"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "БАЗА",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Фармакотерапия Байманов БАЗА"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 5B",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стат. мет. в фарм. Сактапов 5B"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "lecture",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Стан. лек. сред. Толенова №117"
+    },
+    {
+     "day": 5,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "ПСДЛС №308 Айтжан"
+    }
+   ],
+   "name": "Ф 23-01 рус",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 4 курс 7 семестр / Pharmacy 4 course 7 semester- 15 недель / 15 weeks",
+   "slug": "f-23-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "DDS Kalykova №109"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Ind. Pharm. Tech. №308 Aidarbekova"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "",
+     "location": "БАЗА",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Pharm. Ther. Baimanov БАЗА"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 5A",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Stat. Meth. Pharm. Saktapov 5A"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Stan. med.prod. Kalykova №308"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Ind. Pharm. Tech. №109 Aidarbekova"
+    }
+   ],
+   "name": "F 23-01 eng",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 4 курс 7 семестр / Pharmacy 4 course 7 semester- 15 недель / 15 weeks",
+   "slug": "f-23-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Мед и фарм товар. Джиенбаланов №308"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Ад. патол. нег. №320 Усенова"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Фармакология №320 Сейталиева"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Ад. патол. нег. №313 Усенова"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Фармакология №308 Сейталиева"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ОМИАЛС Божбанбаева №109"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "ОМИАЛС Божбанбаева №320"
+    },
+    {
+     "day": 4,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ПДП Шаки Д сим центр"
+    }
+   ],
+   "name": "Ф 24-01 каз",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 3 курс 5 семестр / Pharmacy 3 course 5 semester- 15 недель / 15 weeks",
+   "slug": "f-24-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ПДП Ахметкалиева Н сим центр"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Med. & Pharm. CS Jiyenbalanov №117"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Pharmacology Baimanova №201"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Pharmacology Baimanova №201"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Gen. Meth. Drug An. № Hassan №116"
+    },
+    {
+     "day": 5,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Fund. of Hum. Pathol. Zhalimbetova №203"
+    }
+   ],
+   "name": "F 24-01 eng",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 3 курс 5 семестр / Pharmacy 3 course 5 semester- 15 недель / 15 weeks",
+   "slug": "f-24-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20-18:20"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "biology faculty 510",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Microbiology 510 Omirbekova biology faculty"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Chem faculty 303",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Phys.-Coll. Chem. Ibraimova 303 Chem faculty"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Drug Form Technology №308 Jiyenbalanov"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 109",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Drug Form Technology №109 Jiyenbalanov"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Biochem №320 Yeszhanova"
+    }
+   ],
+   "name": "F 25-01 eng spr",
+   "notes": [
+    "ИКТ МООК"
+   ],
+   "program": "ФАРМАЦИЯ 2 курс 4 семестр / Pharmacy 2 course 4 semester- 15 недель / 15 weeks",
+   "slug": "f-25-01-eng-spr"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Online",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "11:00",
+     "text": "Pathology lecture Mussazhanova Online"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "lecture",
+     "location": "Room 311",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "15:00",
+     "text": "D&D micro lecture Sharipova №311"
+    },
+    {
+     "day": 0,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "17:00",
+     "text": "MBP lec Dushimova №204"
+    },
+    {
+     "day": 1,
+     "end": "09:00",
+     "kind": "lecture",
+     "location": "Room 202",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "08:00",
+     "text": "D&D imm lec Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "09:00",
+     "text": "MBP pharma lec Seitalieva №204"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "MBP pharma sem Seitalieva №316"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&D imm Shayakhmetova №222"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "ПиВ Муратбекова Р.А. сим центр"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&D micro sem Sharipova №309"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "MBP gen Dushimova №201"
+    },
+    {
+     "day": 4,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 25-02 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "14:20",
+     "text": "физра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 5,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Patfiz Umarova №209"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Patan Cherepkova №202"
+    }
+   ],
+   "name": "M spring 25-01 eng",
+   "notes": [],
+   "program": "MEDICINE 2 year 4 semester - 17 weeks (SPRING)",
+   "slug": "m-spring-25-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Online",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "11:00",
+     "text": "Pathology lecture Mussazhanova Online"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "lecture",
+     "location": "Room 311",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "15:00",
+     "text": "D&D micro lecture Sharipova №311"
+    },
+    {
+     "day": 0,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "17:00",
+     "text": "MBP lec Dushimova №204"
+    },
+    {
+     "day": 1,
+     "end": "09:00",
+     "kind": "lecture",
+     "location": "Room 202",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "08:00",
+     "text": "D&D imm lec Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "09:00",
+     "text": "MBP pharma lec Seitalieva №204"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&D imm Shayakhmetova №222"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПиВ Муратбекова Р.А. сим центр"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&D micro sem Sharipova №309"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "MBP gen Dushimova №201"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "MBP pharma sem Seitalieva №316"
+    },
+    {
+     "day": 4,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-03 eng"
+     ],
+     "start": "14:20",
+     "text": "физра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 5,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Patan Cherepkova №202"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Patfiz Bimagambetova №220"
+    }
+   ],
+   "name": "M spring 25-02 eng",
+   "notes": [],
+   "program": "MEDICINE 2 year 4 semester - 17 weeks (SPRING)",
+   "slug": "m-spring-25-02-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Online",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "11:00",
+     "text": "Pathology lecture Mussazhanova Online"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "lecture",
+     "location": "Room 311",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "15:00",
+     "text": "D&D micro lecture Sharipova №311"
+    },
+    {
+     "day": 0,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "17:00",
+     "text": "MBP lec Dushimova №204"
+    },
+    {
+     "day": 1,
+     "end": "09:00",
+     "kind": "lecture",
+     "location": "Room 202",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "08:00",
+     "text": "D&D imm lec Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "Room 204",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "09:00",
+     "text": "MBP pharma lec Seitalieva №204"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "D&D imm Shayakhmetova №222"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПиВ Исламова Г.Ш. сим центр"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&D micro sem Sharipova №309"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "MBP gen Dushimova №201"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Patan Cherepkova №202"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "MBP pharma sem Seitalieva №316"
+    },
+    {
+     "day": 4,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 25-01 eng",
+      "M spring 25-02 eng"
+     ],
+     "start": "14:20",
+     "text": "физра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 5,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Patfiz Bimagambetova №220"
+    }
+   ],
+   "name": "M spring 25-03 eng",
+   "notes": [],
+   "program": "MEDICINE 2 year 4 semester - 17 weeks (SPRING)",
+   "slug": "m-spring-25-03-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "химфак 107",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Аналит. химия Джуманова 107 химфак"
+    },
+    {
+     "day": 0,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "МБОГ Толенова №212"
+    },
+    {
+     "day": 1,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 25-01 рус",
+      "F 25-01"
+     ],
+     "start": "14:20",
+     "text": "физ.ра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "химфак 305",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Физ-колл химия Кумаргалиева 305 химфак"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "химфак 507",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "органика Кипчакбаева химфак 507"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "ФМО малый зал",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Философия сем Рыспеков ФМО малый зал"
+    },
+    {
+     "day": 5,
+     "end": "18:00",
+     "kind": "",
+     "location": "Медикер",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "ПДП Кокаева Э.А. Медикер"
+    }
+   ],
+   "name": "Ф 25-01 каз",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 2 курс 3 семестр / Pharmacy 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "f-25-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "химфак 506",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Орг. химия Иминова химфак 506"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "химфак 103",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Аналит. химия Атчабарова 103 химфак"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "химфак 303",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Физ-колл химия Ибраимова 303 химфак"
+    },
+    {
+     "day": 1,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 25-01 каз",
+      "F 25-01"
+     ],
+     "start": "14:20",
+     "text": "физ.ра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ПДП Шаки Д сим центр"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "восток 535-537",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Философия лек Акберген А. восток 535-537"
+    },
+    {
+     "day": 5,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Философия сем Акберген А. №204"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МБОГ Толенова №212"
+    }
+   ],
+   "name": "Ф 25-01 рус",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 2 курс 3 семестр / Pharmacy 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "f-25-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "chem faculty 108",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Analyt. Chem. 108 Abilev chem faculty"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "chem faculty 102",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Analyt. Chem. 102 Abilev chem faculty"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ПДП Ахметкалиева Н. сим центр"
+    },
+    {
+     "day": 1,
+     "end": "16:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 25-01 каз",
+      "Ф 25-01 рус"
+     ],
+     "start": "14:20",
+     "text": "физ.ра спорт комплекс 14:20-16:20"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "chem faculty 512",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Org. Chem 512 Kudaibergenova chem faculty"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "chem.faculty 301",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Phys.-Coll. Chem. Adilbekova 301 chem.faculty"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "MBFG Kamalova №117"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 216",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Philosophy lec Amrebayeva №216"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 216",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Philosophy sem Amrebayeva №216"
+    }
+   ],
+   "name": "F 25-01",
+   "notes": [],
+   "program": "ФАРМАЦИЯ 2 курс 3 семестр / Pharmacy 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "f-25-01"
+  },
+  {
+   "events": [
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МЗиЗ Биохимия Урнеш №212"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ Биохимия Урнеш №211"
+    },
+    {
+     "day": 3,
+     "end": "14:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M 25-02 каз",
+      "M 25-03 каз"
+     ],
+     "start": "12:30",
+     "text": "физ.ра спорт комплекс 12:30-14:30"
+    },
+    {
+     "day": 3,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "МиФ гисто Төрегелдиева А. №315"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МиФ анат Мукашева №315"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-02 каз",
+      "M 25-03 каз"
+     ],
+     "start": "14:00",
+     "text": "Психология Борбасова Г. №201 лек"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-02 каз",
+      "M 25-03 каз"
+     ],
+     "start": "16:00",
+     "text": "Психология Борбасова Г. №201 сем"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МиФ анат Мукашева №222"
+    }
+   ],
+   "name": "M 25-01 каз",
+   "notes": [
+    "ИКТ - МООК"
+   ],
+   "program": "МЕДИЦИНА 2 курс 3 семестр",
+   "slug": "m-25-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МиФ анат Ибышева №307"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МиФ гисто Төрегелдиева А. №315"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МЗиЗ Биохимия Урнеш №305"
+    },
+    {
+     "day": 3,
+     "end": "14:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-03 каз"
+     ],
+     "start": "12:30",
+     "text": "физ.ра спорт комплекс 12:30-14:30"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МиФ анат Ибышева №307"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-03 каз"
+     ],
+     "start": "14:00",
+     "text": "Психология Борбасова Г. №201 лек"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-03 каз"
+     ],
+     "start": "16:00",
+     "text": "Психология Борбасова Г. №201 сем"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ Биохимия Урнеш №316"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    }
+   ],
+   "name": "M 25-02 каз",
+   "notes": [
+    "ИКТ - МООК"
+   ],
+   "program": "МЕДИЦИНА 2 курс 3 семестр",
+   "slug": "m-25-02-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ Биохимия Урнеш №203"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МиФ анат Мукашева №221"
+    },
+    {
+     "day": 3,
+     "end": "14:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-02 каз"
+     ],
+     "start": "12:30",
+     "text": "физ.ра спорт комплекс 12:30-14:30"
+    },
+    {
+     "day": 3,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "МиФ анат Мукашева №222"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МиФ гисто Төрегелдиева А. №321"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-02 каз"
+     ],
+     "start": "14:00",
+     "text": "Психология Борбасова Г. №201 лек"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [
+      "M 25-01 каз",
+      "M 25-02 каз"
+     ],
+     "start": "16:00",
+     "text": "Психология Борбасова Г. №201 сем"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МЗиЗ Биохимия Урнеш №316"
+    }
+   ],
+   "name": "M 25-03 каз",
+   "notes": [
+    "ИКТ - МООК"
+   ],
+   "program": "МЕДИЦИНА 2 курс 3 семестр",
+   "slug": "m-25-03-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "МЗиЗ Биохимия Омирзакова №203"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "МиФ гисто Юй №202"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "МЗиЗ Биохимия Омирзакова №309"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МиФ анат Ибышева №307"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "физ.ра спорт комплекс"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "Room 216",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Психология Борбасова Г. №216 лек"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "seminar",
+     "location": "Room 216",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Борбасова Г. №216 сем"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "МиФ анат Ибышева №307"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ иммун Кульниязова №221"
+    }
+   ],
+   "name": "M 25-01 рус",
+   "notes": [
+    "ИКТ - МООК"
+   ],
+   "program": "МЕДИЦИНА 2 курс 3 семестр",
+   "slug": "m-25-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "09:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Anat. Kassenova №205"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 1,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Immun. Shayakhmetova №222"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "M&P: Anat. Kassenova №205"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Shayakhmetova №222"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    }
+   ],
+   "name": "M 25-01 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Anat. Kassenova №205"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Kassenova №205"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-02 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-02-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "09:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Immun. Shayakhmetova №222"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Oralkhan №316"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Shayakhmetova №222"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Anat. Oralkhan №204"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Oralkhan №220"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "D&H: Biochem Kudiyarova №311"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-03 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-03-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Anat. Aitbayeva №201"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Immun. Sarybayeva №211"
+    },
+    {
+     "day": 2,
+     "end": "09:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Biochem Kudiyarova №314"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Immun. Sarybayeva №310"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Aitbayeva №221"
+    },
+    {
+     "day": 4,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kudiyarova №311"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-04 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-04-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Immun. Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Yedilova №311"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Biochem Yeszhanova №201"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "M&P: Anat. Aitbayeva №106"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Immun. Sarybayeva №310"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-06 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "M&P: Anat. Aitbayeva №310"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-05 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-05-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Immun. Sarybayeva №310"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Eshim №221"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Immun. Sarybayeva №310"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-07 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Anat. Eshim №321"
+    }
+   ],
+   "name": "M 25-06 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-06-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Immun. Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Kumishodzhaeva №316"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Anat. Kumishodzhaeva №311"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "M&P: Anat. Kumishodzhaeva №309"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Immun. Sarybayeva №309"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-08 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Histo Yespolayeva №205"
+    }
+   ],
+   "name": "M 25-07 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-07-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Kumishodzhaeva №310"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Immun. Sarybayeva №202"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Yeszhanova №211"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Kumishodzhaeva №222"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Immun. Sarybayeva №309"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-01 eng",
+      "M 25-02 eng",
+      "M 25-03 eng",
+      "M 25-04 eng",
+      "M 25-05 eng",
+      "M 25-06 eng",
+      "M 25-07 eng"
+     ],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Histo Yespolayeva №205"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-08 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-08-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Immun. Sarybayeva №202"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Immun. Sarybayeva №310"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Histo Yedilova №204"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Kumishodzhaeva №205"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-10 eng",
+      "M 25-11 eng",
+      "M 25-12 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Kumishodzhaeva №311"
+    }
+   ],
+   "name": "M 25-09 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-09-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Immun. Akimnyazova №309"
+    },
+    {
+     "day": 0,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "18:00",
+     "text": "M&P: Histo Yespolayeva №203"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 2,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "M&P: Anat. Karchalova №211"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Akimnyazova №316"
+    },
+    {
+     "day": 3,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "18:00",
+     "text": "M&P: Histo Yespolayeva №203"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-09 eng",
+      "M 25-11 eng",
+      "M 25-12 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Karchalova №309"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-10 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-10-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Immun. Akimnyazova №309"
+    },
+    {
+     "day": 1,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "18:00",
+     "text": "M&P: Anat. Kadyrova №211"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "M&P: Histo Qudaibergenova №316"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Immun. Akimnyazova №316"
+    },
+    {
+     "day": 3,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "18:00",
+     "text": "M&P: Anat. Kadyrova №211"
+    },
+    {
+     "day": 4,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-09 eng",
+      "M 25-10 eng",
+      "M 25-12 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Kadyrova №309"
+    }
+   ],
+   "name": "M 25-11 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-11-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Tastanbekov №203"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Sharipova №106"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Sharipova №310"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Immun. Akimnyazova №205"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Tastanbekov №209"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "D&H: Immun. Akimnyazova №316"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-09 eng",
+      "M 25-10 eng",
+      "M 25-11 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Histo Qudaibergenova №307"
+    }
+   ],
+   "name": "M 25-12 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-12-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Akimnyazova №309"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Akanova №315"
+    },
+    {
+     "day": 1,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "M&P: Anat. Sharipova №310"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Immun. Akimnyazova №311"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "D&H: Biochem Akanova №315"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "M&P: Anat. Sharipova №309"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Histo Qudaibergenova №307"
+    }
+   ],
+   "name": "M 25-13 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-13-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H: Biochem Akanova №315"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "D&H: Biochem Akanova №315"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Histo Kamalova №307"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Eshim №311"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Anat. Eshim №310"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-15 eng",
+      "M 25-16 eng",
+      "M 25-17 eng",
+      "M 25-18 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    }
+   ],
+   "name": "M 25-14 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-14-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Baidaulet №202"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Histo Kamalova №307"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Baidaulet №314"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Akimnyazova №221"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-14 eng",
+      "M 25-16 eng",
+      "M 25-17 eng",
+      "M 25-18 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Biochem Kashaganova №313"
+    }
+   ],
+   "name": "M 25-15 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-15-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Eshim №321"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 2,
+     "end": "09:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Тажина Сем №311"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Sherelkhan №316"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-14 eng",
+      "M 25-15 eng",
+      "M 25-17 eng",
+      "M 25-18 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Eshim №321"
+    }
+   ],
+   "name": "M 25-16 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-16-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Eshim №310"
+    },
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "M&P: Anat. Eshim №321"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Kamalova №309"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Eshim №321"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-14 eng",
+      "M 25-15 eng",
+      "M 25-16 eng",
+      "M 25-18 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    }
+   ],
+   "name": "M 25-17 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-17-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 0,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "M&P: Anat. Eshim №321"
+    },
+    {
+     "day": 1,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "M&P: Anat. Eshim №321"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H: Biochem Aitzhan №209"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "D&H: Immun. Sarsenova №220"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "M&P: Histo Sherelkhan №222"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 25-14 eng",
+      "M 25-15 eng",
+      "M 25-16 eng",
+      "M 25-17 eng"
+     ],
+     "start": "16:00",
+     "text": "Physical Training sports complex"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "lecture",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Психология Лек Тажина ФФИП 316"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "ФФИП 316",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Психология Тажина Сем ФФИП 316"
+    }
+   ],
+   "name": "M 25-18 eng",
+   "notes": [
+    "ICT / Sociology MOOK"
+   ],
+   "program": "MEDICINE 2 year 3 semester - 17 weeks",
+   "slug": "m-25-18-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 303",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ 2: Биохимия Урнеш №303"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "АГШ Балгабаева №105"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Мырзабаева Г. №105"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 121",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Стом био Абдыбекова №121"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "АГШ Балгабаева №104"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 303",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №303"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стом био Абдыбекова №104"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "МЗиЗ 2: Биохимия Урнеш №104"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №321"
+    }
+   ],
+   "name": "стом 25-01 каз",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №301"
+    },
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "АГШ Балгабаева №105"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 303",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "МЗиЗ 2: Биохимия Урнеш №303"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Стом био Сабитова К. №112"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "АГШ Балгабаева №304"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "МЗиЗ 2: Биохимия Урнеш №104"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Мырзабаева Г. №105"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стом био Сабитова К. №105"
+    },
+    {
+     "day": 4,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №211"
+    }
+   ],
+   "name": "стом 25-02 каз",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-02-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "АГШ Балгабаева №105"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Стом био Нурман Г. №301"
+    },
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №323"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "АГШ Балгабаева №304"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Стом био Нурман Г. №301"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МЗиЗ 2: Биохимия Кашаганова №304"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №321"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Клиника",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Рузиддинов Н. Клиника"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ 2: Биохимия Кашаганова №313"
+    }
+   ],
+   "name": "стом 25-03 каз",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-03-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №323"
+    },
+    {
+     "day": 0,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Стом био Нурман Г. №301"
+    },
+    {
+     "day": 1,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "МЗиЗ 2: Биохимия Аканова №315"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "АГШ Балгабаева №104"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Стом био Нурман Г. №301"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "МЗиЗ 2: Биохимия Аканова №105"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "АГШ Балгабаева №304"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Клиника",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Рузденова А. Клиника"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №321"
+    }
+   ],
+   "name": "стом 25-04 каз",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-04-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 129",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Сартова С. №129"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стом био Тебенова Г. №104"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "МЗиЗ 2: Биохимия Омирзакова №323"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "АГШ Король Л. №305"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "МЗиЗ 2: Биохимия Омирзакова №310"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 303",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №303"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Стом био Тебенова Г. №104"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-02 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "АГШ Король Л. №305"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №321"
+    }
+   ],
+   "name": "стом 25-01 рус",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 129",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Одонтопреп Сартова С. №129"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №305"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МЗиЗ 2: Биохимия Еcжанова №112"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "АГШ Король Л. №305"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 121",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Стом био Мухаметкаримова Г. №121"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ 2: Иммун. Суюнбай №301"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "den 25-01 eng",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 121",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Стом био Мухаметкаримова Г. №121"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "АГШ Король Л. №305"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "МЗиЗ 2: Биохимия Еcжанова №105"
+    }
+   ],
+   "name": "стом 25-02 рус",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "stom-25-02-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H 2: Immun. Aralbayeva №321"
+    },
+    {
+     "day": 0,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 122",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Одонтопреп Камиева Н. №122"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "D&H 2: Biochem Tastanbekov №323"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "АГШ Амзеев А. №323"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Стом био Амзеева А. №304"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "D&H 2: Biochem Tastanbekov №321"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "АГШ Амзеев А. №323"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-02 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H 2: Immun. Akimnyazova №305"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Стом био Амзеева А. №301"
+    }
+   ],
+   "name": "den 25-01 eng",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "den-25-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H 2: Biochem Pinskiy №220"
+    },
+    {
+     "day": 1,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 321",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H 2: Immun. Aralbayeva №321"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 131",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Одонтопреп Тулепбергенова А. №131"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "D&H 2: Immun. Aralbayeva №301"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "АГШ Амзеев А. №323"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "АГШ Амзеев А. №323"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Стом био Жанысбек А. №112"
+    },
+    {
+     "day": 3,
+     "end": "18:20",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "стом 25-01 каз",
+      "стом 25-02 каз",
+      "стом 25-03 каз",
+      "стом 25-04 каз",
+      "стом 25-01 рус",
+      "стом 25-02 рус",
+      "den 25-01 eng"
+     ],
+     "start": "16:20",
+     "text": "физ.ра спорт комплекс 16:20 - 18:20"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 323",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Стом био Жанысбек А. №323"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "D&H 2: Biochem Pinskiy №209"
+    }
+   ],
+   "name": "den 25-02 eng",
+   "notes": [],
+   "program": "СТОМАТОЛОГИЯ 2 курс 3 семестр / DENTISTRY 2 course 3 semester- 15 недель / 15 weeks",
+   "slug": "den-25-02-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "FM&P: Anat. Oralkhan №316"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 26-02 eng",
+      "M spring 26-03 eng"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Mol. Biol. & Genet. Bio Tolenova №212"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Mol. Biol. & Genet. Bio Tolenova №301"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "FM&P: Anat. Oralkhan №203"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "For Lan Kassenova №205"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Mol. Biol. & Genet. Chem Kashaganova №313"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Kaz lan Toleeva №112"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Microbiol. & Parasitol. Aitzhan №209"
+    },
+    {
+     "day": 5,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "FM&P: Biophys Rakhimzhan №204"
+    }
+   ],
+   "name": "M spring 26-01 eng",
+   "notes": [
+    "Қазақ тілі 3 сем группа 3сағ*10, 2 сағ*5"
+   ],
+   "program": "MEDICINE 1 year 2 semester - 15 weeks (SPRING)",
+   "slug": "m-spring-26-01-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Microbiol. & Parasitol. Aitzhan №209"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 26-01 eng",
+      "M spring 26-03 eng"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Microbiol. & Parasitol. Aitzhan №209"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Mol. Biol. & Genet. Bio Tolenova №307"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "For Lan Kassenova №205"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "FM&P: Biophys Rakhimzhan №221"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "FM&P: Baidaulet №106"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [
+      "M spring 26-03 eng"
+     ],
+     "start": "12:00",
+     "text": "Kaz lan Toleeva №112"
+    },
+    {
+     "day": 4,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 310",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "FM&P: Baidaulet №310"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Mol. Biol. & Genet. Chem Akanova №315"
+    }
+   ],
+   "name": "M spring 26-02 eng",
+   "notes": [
+    "Қазақ тілі 3 сем группа 3сағ*10, 2 сағ*5"
+   ],
+   "program": "MEDICINE 1 year 2 semester - 15 weeks (SPRING)",
+   "slug": "m-spring-26-02-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Microbiol. & Parasitol. Hassan №201"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "M spring 26-01 eng",
+      "M spring 26-02 eng"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Mol. Biol. & Genet. Bio Pinskiy №106"
+    },
+    {
+     "day": 2,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "FM&P: Anat. Oralkhan №203"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "For Lan Kassenova №205"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Mol. Biol. & Genet. Chem Akanova №315"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "FM&P: Anat. Oralkhan №106"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [
+      "M spring 26-02 eng"
+     ],
+     "start": "12:00",
+     "text": "Kaz lan Toleeva №112"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 204",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "FM&P: Biophys Rakhimzhan №204"
+    }
+   ],
+   "name": "M spring 26-03 eng",
+   "notes": [
+    "Қазақ тілі 3 сем группа 3сағ*10, 2 сағ*5"
+   ],
+   "program": "MEDICINE 1 year 2 semester - 15 weeks (SPRING)",
+   "slug": "m-spring-26-03-eng"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Лат. язык Еленова №106"
+    },
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "ОАФЧ Ибышева Н. №203"
+    },
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "ОАФЧ Ибышева Н. №202"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 26-01 каз қазан",
+      "Ф 26-02 каз қазан",
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "МНИ Ракымжан №116"
+    },
+    {
+     "day": 2,
+     "end": "10:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Лат. язык Еленова №106"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Каз (рус) язык №106"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "химфак 513",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "неорганика Балгышева химфак 513"
+    },
+    {
+     "day": 4,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 320",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "ОАФЧ Кадырова А. №320"
+    }
+   ],
+   "name": "Ф 26-01 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "Фармация 1 курс 1 семестр / Pharmacy 1 course 1 semester",
+   "slug": "f-26-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Анатомия Ибышева Н. №314"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 26-01 каз",
+      "Ф 26-02 каз қазан",
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 117",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Лат. язык Еленова №117"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Лат. язык Еленова №209"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 220",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Анатомия Мукашева №220"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-02 каз қазан",
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "09:00",
+     "text": "Ғылыми зерттеу әдістері №201 Жактаева лек"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-02 каз қазан"
+     ],
+     "start": "10:00",
+     "text": "ҒЗӘ №201 Жактаева сем"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Анатомия Ибышева Н. №202"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "Хим фак 323-А",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Ағылшын Тлеугабылова З Хим фак 323-А"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Қазақ (орыс) тілі Әбдір А №205 ауд"
+    },
+    {
+     "day": 4,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Лат. язык Еленова №201"
+    }
+   ],
+   "name": "Ф 26-01 каз қазан",
+   "notes": [],
+   "program": "Фармация 1 курс триместр / Pharmacy 1 course trimestr",
+   "slug": "f-26-01-kaz-qazan"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 26-01 каз",
+      "Ф 26-01 каз қазан",
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "14:00",
+     "text": "Ағылшын тілі Байдабекова М. №201"
+    },
+    {
+     "day": 1,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "17:00",
+     "text": "Қазақ (орыс) тілі Нурмолдаев Д. №201"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Лат. язык Еленова №315"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-01 каз қазан",
+      "Ф 26-03 каз қазан"
+     ],
+     "start": "09:00",
+     "text": "Ғылыми зерттеу әдістері №201 Жактаева лек"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-01 каз қазан"
+     ],
+     "start": "10:00",
+     "text": "ҒЗӘ №201 Жактаева сем"
+    },
+    {
+     "day": 4,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Лат. язык Еленова №201"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Анатомия Ешим №202"
+    },
+    {
+     "day": 5,
+     "end": "19:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Анатомия Ибышева Н. №209"
+    }
+   ],
+   "name": "Ф 26-02 каз қазан",
+   "notes": [],
+   "program": "Фармация 1 курс триместр / Pharmacy 1 course trimestr",
+   "slug": "f-26-02-kaz-qazan"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Лат. язык Еленова №307"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "Ф 26-01 каз",
+      "Ф 26-01 каз қазан",
+      "Ф 26-02 каз қазан"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-02 каз қазан"
+     ],
+     "start": "14:00",
+     "text": "Ағылшын тілі Байдабекова М. №201"
+    },
+    {
+     "day": 1,
+     "end": "20:00",
+     "kind": "",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-02 каз қазан"
+     ],
+     "start": "17:00",
+     "text": "Қазақ (орыс) тілі Нурмолдаев Д. №201"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Лат. язык Еленова №211"
+    },
+    {
+     "day": 3,
+     "end": "10:00",
+     "kind": "lecture",
+     "location": "Room 201",
+     "shared_with": [
+      "Ф 26-01 каз қазан",
+      "Ф 26-02 каз қазан"
+     ],
+     "start": "09:00",
+     "text": "Ғылыми зерттеу әдістері №201 Жактаева лек"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ҒЗӘ №308 Жактаева сем"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 222",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Анатомия Мукашева №222"
+    }
+   ],
+   "name": "Ф 26-03 каз қазан",
+   "notes": [],
+   "program": "Фармация 1 курс триместр / Pharmacy 1 course trimestr",
+   "slug": "f-26-03-kaz-qazan"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "ИК сем Дауытбекова №305"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "ОАМТ анат Ибышева №205"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "М2С био №212 Толенова"
+    },
+    {
+     "day": 4,
+     "end": "13:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ВВП Акильбеков С.Д. сим центр"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "М2С хим №315 Аканова"
+    }
+   ],
+   "name": "M 26-01 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "МЕДИЦИНА 1 курс 1 семестр / MEDICINE 1 year 1 semester - 15 weeks",
+   "slug": "m-26-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    }
+   ],
+   "name": "M 26-01 рус (повторники)",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "МЕДИЦИНА 1 курс 1 семестр / MEDICINE 1 year 1 semester - 15 weeks",
+   "slug": "m-26-01-rus-povtorniki"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Biology №212 sem Kamalova"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Anatomy sem Yermakhanbet №311"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Chemistry sem Akanova №315"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Anatomy sem Yermakhanbet №209"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Biology №211 sem Kamalova"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Chemistry sem Akanova №315"
+    },
+    {
+     "day": 4,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Қазақ тілі Толеева Н. №304"
+    }
+   ],
+   "name": "M 26-01 eng october",
+   "notes": [],
+   "program": "МЕДИЦИНА 1 курс 1 семестр / MEDICINE 1 year 1 semester - 15 weeks",
+   "slug": "m-26-01-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Anatomy sem Yermakhanbet №311"
+    },
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Biology №212 sem Kamalova"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Anatomy sem Yermakhanbet №315"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Chemistry sem Akanova №315"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 304",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Қазақ тілі Толеева Н. №304"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Biology №106 sem Kamalova"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Chemistry sem Akanova №315"
+    }
+   ],
+   "name": "M 26-02 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-02-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "15:00",
+     "kind": "",
+     "location": "Мехмат 10Б-1",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Қазақ тілі Асенова А. Х. Мехмат 10Б-1 ауд"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Biology №309 sem Kamalova"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 201",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Anatomy sem Yermakhanbet №201"
+    },
+    {
+     "day": 3,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 315",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Anatomy sem Yermakhanbet №315"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Biology №202 sem Kamalova"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "seminar",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Chemistry sem Meirbekov №211"
+    }
+   ],
+   "name": "M 26-03 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-03-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 307",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Biology sem №307 Alibekova"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Chemistry sem Kashaganova №313"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Қазақ тілі Моминов Н. 105 ауд"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Anatomy sem Abish №106"
+    },
+    {
+     "day": 4,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Chemistry sem Kashaganova №313"
+    },
+    {
+     "day": 5,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Anatomy sem Abish №106"
+    },
+    {
+     "day": 5,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Biology sem №314 Alibekova"
+    }
+   ],
+   "name": "M 26-04 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-04-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-06 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Anatomy sem Abish №211"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Қазақ тілі Моминов Н. 105 ауд"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Chemistry sem Kashaganova №313"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Biology sem №314 Alibekova"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Anatomy sem Abish №211"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 313",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Chemistry sem Kashaganova №313"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Biology sem №314 Alibekova"
+    }
+   ],
+   "name": "M 26-05 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-05-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Chemistry sem Meirbekov №309"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-07 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "19:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Chemistry sem Meirbekov №316"
+    },
+    {
+     "day": 2,
+     "end": "16:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Biology sem №314 Alibekova"
+    },
+    {
+     "day": 3,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Қазақ тілі Ақжігітова А №205"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Anatomy sem Abish №314"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Biology sem №314 Alibekova"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 106",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Anatomy sem Abish №106"
+    }
+   ],
+   "name": "M 26-06 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-06-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "sports complex",
+     "shared_with": [
+      "M 26-01 каз",
+      "M 26-01 рус (повторники)",
+      "M 26-01 eng october",
+      "M 26-02 eng october",
+      "M 26-03 eng october",
+      "M 26-04 eng october",
+      "M 26-05 eng october",
+      "M 26-06 eng october"
+     ],
+     "start": "16:30",
+     "text": "Physical education in sports complex 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 221",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "Anatomy sem Kassenova №221"
+    },
+    {
+     "day": 1,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Anatomy sem Kassenova №212"
+    },
+    {
+     "day": 2,
+     "end": "19:00",
+     "kind": "seminar",
+     "location": "Room 309",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Chemistry sem Meirbekov №309"
+    },
+    {
+     "day": 3,
+     "end": "16:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Қазақ тілі Көшербай Ж. Б №209 ауд"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 205",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Chemistry sem Meirbekov №205"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "Biology sem №314 Alibekova"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "Room 311",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "Anatomy sem Kassenova №311"
+    },
+    {
+     "day": 5,
+     "end": "11:00",
+     "kind": "seminar",
+     "location": "Room 314",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "Biology sem №314 Alibekova"
+    }
+   ],
+   "name": "M 26-07 eng october",
+   "notes": [],
+   "program": "Medicine 1st course trimestr",
+   "slug": "m-26-07-eng-october"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "13:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ВВП Акильбеков С.Д. сим центр"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 305",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "ИК сем Дауытбекова №305"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз"
+     ],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 2,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био №212 Толенова"
+    },
+    {
+     "day": 4,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 212",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "М2С био №212 Толенова"
+    }
+   ],
+   "name": "26-01 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-01-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био №209 Айтжан"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-01 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз"
+     ],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-03 каз"
+     ],
+     "start": "13:00",
+     "text": "ИК сем Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 209",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био №209 Айтжан"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ВВП Акильбеков С.Д. сим центр"
+    }
+   ],
+   "name": "26-02 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-02-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-04 каз",
+      "26-05 каз"
+     ],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "seminar",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-02 каз"
+     ],
+     "start": "13:00",
+     "text": "ИК сем Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 2,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био Урнеш №112"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ВВП Ахметкалиева Н сим центр"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 211",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био Урнеш №211"
+    }
+   ],
+   "name": "26-03 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-03-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 305",
+     "shared_with": [
+      "26-05 каз"
+     ],
+     "start": "08:00",
+     "text": "ИК сем Дауытбекова №305"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-05 каз"
+     ],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 112",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "М2С био Урнеш №112"
+    },
+    {
+     "day": 3,
+     "end": "14:00",
+     "kind": "",
+     "location": "симцентр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ВВП Шаки симцентр"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "М2С био Урнеш №105"
+    }
+   ],
+   "name": "26-04 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-04-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 303",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "М2С био Урнеш №303"
+    },
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-01 рус",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "10:00",
+     "kind": "seminar",
+     "location": "Room 305",
+     "shared_with": [
+      "26-04 каз"
+     ],
+     "start": "08:00",
+     "text": "ИК сем Дауытбекова №305"
+    },
+    {
+     "day": 1,
+     "end": "13:00",
+     "kind": "",
+     "location": "ФМО малый зал",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз"
+     ],
+     "start": "12:00",
+     "text": "ИК Дауытбекова ФМО малый зал"
+    },
+    {
+     "day": 3,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 105",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "М2С био Урнеш №105"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Медикер",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "ВВП Кокаева Э Медикер"
+    }
+   ],
+   "name": "26-05 каз",
+   "notes": [
+    "Иностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-05-kaz"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "11:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "каз (рус) язык Хамитова №301"
+    },
+    {
+     "day": 1,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 303",
+     "shared_with": [
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "14:00",
+     "text": "ИК лек Джолдыбаева №303"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 303",
+     "shared_with": [
+      "26-02 рус",
+      "26-03 рус"
+     ],
+     "start": "15:00",
+     "text": "ИК сем Джолдыбаева №303"
+    },
+    {
+     "day": 4,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "",
+     "location": "сим центр",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "ВВП Акильбеков С.Д. сим центр"
+    }
+   ],
+   "name": "26-01 рус",
+   "notes": [
+    "Қазақ тілі 2 сем группа 3сағ*10, 2 сағ*5\nИностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-01-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-03 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [
+      "26-03 рус"
+     ],
+     "start": "11:00",
+     "text": "каз (рус) язык Хамитова №301"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [
+      "26-03 рус"
+     ],
+     "start": "12:00",
+     "text": "каз (рус) язык Хамитова №104"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 303",
+     "shared_with": [
+      "26-01 рус",
+      "26-03 рус"
+     ],
+     "start": "14:00",
+     "text": "ИК лек Джолдыбаева №303"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 303",
+     "shared_with": [
+      "26-01 рус",
+      "26-03 рус"
+     ],
+     "start": "15:00",
+     "text": "ИК сем Джолдыбаева №303"
+    },
+    {
+     "day": 3,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Медикер",
+     "shared_with": [],
+     "start": "08:00",
+     "text": "ВВП Кокаева Медикер"
+    }
+   ],
+   "name": "26-02 рус",
+   "notes": [
+    "Қазақ тілі 2 сем группа 3сағ*10, 2 сағ*5\nИностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-02-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "18:30",
+     "kind": "pe",
+     "location": "спорт комплекс",
+     "shared_with": [
+      "26-01 каз",
+      "26-02 каз",
+      "26-03 каз",
+      "26-04 каз",
+      "26-05 каз",
+      "26-01 рус",
+      "26-02 рус"
+     ],
+     "start": "16:30",
+     "text": "физ.ра спорт комплекс 16:30-18:30"
+    },
+    {
+     "day": 1,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 301",
+     "shared_with": [
+      "26-02 рус"
+     ],
+     "start": "11:00",
+     "text": "каз (рус) язык Хамитова №301"
+    },
+    {
+     "day": 1,
+     "end": "14:00",
+     "kind": "",
+     "location": "Room 104",
+     "shared_with": [
+      "26-02 рус"
+     ],
+     "start": "12:00",
+     "text": "каз (рус) язык Хамитова №104"
+    },
+    {
+     "day": 2,
+     "end": "15:00",
+     "kind": "lecture",
+     "location": "Room 303",
+     "shared_with": [
+      "26-01 рус",
+      "26-02 рус"
+     ],
+     "start": "14:00",
+     "text": "ИК лек Джолдыбаева №303"
+    },
+    {
+     "day": 2,
+     "end": "17:00",
+     "kind": "seminar",
+     "location": "Room 303",
+     "shared_with": [
+      "26-01 рус",
+      "26-02 рус"
+     ],
+     "start": "15:00",
+     "text": "ИК сем Джолдыбаева №303"
+    },
+    {
+     "day": 3,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 4,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 203",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "М2С био Джумашева №203"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "симцентр",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "ВВП Ахметкалиева симцентр"
+    }
+   ],
+   "name": "26-03 рус",
+   "notes": [
+    "Қазақ тілі 2 сем группа 3сағ*10, 2 сағ*5\nИностр яз. СДО МУДЛ - онлайн"
+   ],
+   "program": "СТОМАТОЛОГИЯ 1 курс 1 семестр / DENTISTRY 1 course 1 semester - 15 недель / 15 weeks",
+   "slug": "26-03-rus"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "",
+     "location": "НЦПП",
+     "shared_with": [],
+     "start": "14:00",
+     "text": "тех биопреп Джумагазиев НЦПП"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "НЦПП",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "СЛС Джумагазиева НЦПП"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Клин фарм. Сейталиева №116"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "09:00",
+     "text": "САЛС Сатмбекова №116"
+    },
+    {
+     "day": 5,
+     "end": "15:00",
+     "kind": "",
+     "location": "Room 116",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "КОКЛС Сатмбекова №116"
+    }
+   ],
+   "name": "Ф 25-01 маг",
+   "notes": [],
+   "program": "Магистратура",
+   "slug": "f-25-01-mag"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "14:00",
+     "kind": "",
+     "location": "медфак 6В",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "Инос. язык Бершина 6В медфак"
+    },
+    {
+     "day": 0,
+     "end": "18:00",
+     "kind": "lecture",
+     "location": "химфак 427",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "Псих. управ 427 химфак лек"
+    },
+    {
+     "day": 0,
+     "end": "19:00",
+     "kind": "seminar",
+     "location": "юрфак 305",
+     "shared_with": [],
+     "start": "18:00",
+     "text": "Псих. управ 305 юрфак сем"
+    },
+    {
+     "day": 1,
+     "end": "18:00",
+     "kind": "lecture",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "БАВ лек Тургумбаева №308"
+    },
+    {
+     "day": 2,
+     "end": "14:00",
+     "kind": "",
+     "location": "медфак 6В",
+     "shared_with": [],
+     "start": "11:00",
+     "text": "ОПНИФ Усатаева медфак 6В"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "Room 202",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "ДЭРЛС сем Калыкова №202"
+    },
+    {
+     "day": 3,
+     "end": "18:00",
+     "kind": "",
+     "location": "НЦПП",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Надлж. Джумагазиева НЦПП"
+    }
+   ],
+   "name": "Ф 26-01 маг",
+   "notes": [],
+   "program": "Магистратура",
+   "slug": "f-26-01-mag"
+  },
+  {
+   "events": [
+    {
+     "day": 0,
+     "end": "17:00",
+     "kind": "lecture",
+     "location": "юрфак 310",
+     "shared_with": [],
+     "start": "16:00",
+     "text": "Басқ. псих. юрфак 310 лек"
+    },
+    {
+     "day": 0,
+     "end": "18:00",
+     "kind": "seminar",
+     "location": "юрфак 420",
+     "shared_with": [],
+     "start": "17:00",
+     "text": "Басқ. псих. юрфак 420 сем"
+    },
+    {
+     "day": 2,
+     "end": "18:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Фармаконадзор Сейталиева №308"
+    },
+    {
+     "day": 4,
+     "end": "18:00",
+     "kind": "",
+     "location": "Сим центр",
+     "shared_with": [],
+     "start": "15:00",
+     "text": "Клин. стат әдіс Уалиева А.Сим центр"
+    },
+    {
+     "day": 5,
+     "end": "13:00",
+     "kind": "",
+     "location": "Room 129",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "Мед. көм. сапа. басқ. Аширов 129"
+    }
+   ],
+   "name": "Ф 26-01 маг қазан",
+   "notes": [],
+   "program": "Магистратура",
+   "slug": "f-26-01-mag-qazan"
+  }
+ ],
+ "tab": "🔴23.11-29.11",
+ "title": "Расписание занятий 2026-2027 _Timetable of classes 2026-2027 : 🔴23.11-29.11",
+ "week_start": "2026-11-23"
+}
