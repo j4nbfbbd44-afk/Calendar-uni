@@ -15,11 +15,14 @@ permissions:
   issues: write
 
 concurrency:
-  group: timetable
+  group: timetable-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   build:
+    # Only the default branch fetches, notifies and deploys. Otherwise two branches
+    # would send duplicate notifications and overwrite each other's site.
+    if: github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     outputs:
       notify: ${{ steps.notify.outcome }}
