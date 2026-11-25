@@ -515,6 +515,7 @@ def _fetch(report: dict) -> int:
             report["errors"].append(f"Parse failed for tab {tab['name']!r}: {e}. Keeping last good data.")
             continue
         warnings = week.pop("warnings", [])
+        report.setdefault("groups", {}).update({g["name"]: g["slug"] for g in week["groups"]})
         report["warnings"] += [f"[{tab['name']}] {w}" for w in warnings]
         n_ev = sum(len(g["events"]) for g in week["groups"])
         if len(week["groups"]) < MIN_GROUPS or n_ev == 0 or not week["week_start"]:

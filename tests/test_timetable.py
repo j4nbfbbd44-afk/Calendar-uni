@@ -154,6 +154,21 @@ class Notify(unittest.TestCase):
         self.assertTrue(h["digest"])
         self.assertIn("crashed", h["problems"][0])
 
+    def test_watch_filter(self):
+        old = notify.WATCH
+        notify.WATCH = ["m-26-04-eng-october"]
+        try:
+            h = self.run_with({
+                "errors": [], "changes": [],
+                "groups": {"M 26-04 eng october": "m-26-04-eng-october", "M 25-16 eng": "m-25-16-eng"},
+                "warnings": ["[t] M 25-16 eng: no room found in 'x'",
+                             "[t] M 26-04 eng october: no room found in 'y'",
+                             "[t] Layout: time column 8 labels 70 slots, first block labels 72"]})
+        finally:
+            notify.WATCH = old
+        self.assertEqual(len(h["problems"]), 2, h["problems"])
+        self.assertFalse(any("M 25-16" in p for p in h["problems"]))
+
     def test_clean_report(self):
         h = self.run_with({"errors": [], "warnings": [], "changes": []})
         self.assertEqual(h, {"digest": "", "problems": []})

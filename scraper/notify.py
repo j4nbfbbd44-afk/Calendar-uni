@@ -10,8 +10,9 @@ Channels (stdlib only):
 - ntfy.sh push (optional): set the NTFY_TOPIC secret to a hard-to-guess topic name and
   subscribe to it in the ntfy app.
 
-WATCH_GROUPS (optional, comma separated slugs or names): only notify about changes
-for these groups. Empty = all groups (one summary).
+WATCH_GROUPS (comma separated slugs or names): only notify about changes and
+group-specific warnings for these groups. Warnings that affect every group (fetch or
+parse failures, layout drift, stale week) are always sent. Empty = all groups.
 """
 from __future__ import annotations
 
@@ -115,7 +116,20 @@ def main() -> int:
     footer = f"\n\n[Workflow run]({RUN_URL})" + (f" · [Website]({SITE_URL})" if SITE_URL else "")
 
     # ---- health --------------------------------------------------------
-    problems = [f"ERROR: {e}" for e in report["errors"]] + [f"Warning: {w}" for w in report["warnings"]]
+    names = report.get("groups", {})  # group name -> slug
+
+    def relevant(w: str) -> bool:
+        """Drop warnings about a specific group that is not watched."""
+        if not WATCH:
+            return True
+        body = w.split("] ", 1)[1] if w.startswith("[") and "] " in w else w
+        for name, slug in names.items():
+            if body.startswith(name + ":"):
+                return name.lower() in WATCH or slug.lower() in WATCH
+        return True
+
+    warnings = [w for w in report["warnings"] if relevant(w)]
+    problems = [f"ERROR: {e}" for e in report["errors"]] + [f"Warning: {w}" for w in warnings]
     digest = hashlib.sha1("\n".join(sorted(problems)).encode()).hexdigest() if problems else ""
     prev = json.loads(HEALTH.read_text(encoding="utf-8")) if HEALTH.exists() else {"digest": ""}
     if problems and digest != prev.get("digest"):

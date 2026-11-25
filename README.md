@@ -48,8 +48,8 @@ cd _site && python3 -m http.server
   missing rooms, layout drift, stale week, fetch/parse failures) and diffs against the last data.
 - `scraper/notify.py` reports problems in an issue labelled `timetable-health` (closed when fixed)
   and changes as comments on an issue labelled `timetable-changes`.
-- Optional: secret `NTFY_TOPIC` for ntfy.sh phone push; variable `WATCH_GROUPS` (comma-separated
-  slugs, e.g. `m-26-04-eng-october`) to only be notified about those groups.
+- Optional: secret `NTFY_TOPIC` for ntfy.sh phone push. Notifications cover only `WATCH_GROUPS` (repo variable, comma-separated;
+  default `m-26-04-eng-october`). Warnings affecting every group are always sent.
 
 ## Setup
 
