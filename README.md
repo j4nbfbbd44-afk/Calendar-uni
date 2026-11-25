@@ -41,6 +41,16 @@ python3 scraper/timetable.py all
 cd _site && python3 -m http.server
 ```
 
+## Monitoring and notifications
+
+- `tests/` runs parser regression tests on a sanitized copy of a real week (schedule grid only).
+- Every fetch runs self-checks (skipped cells, impossible or far-off written times, overlaps,
+  missing rooms, layout drift, stale week, fetch/parse failures) and diffs against the last data.
+- `scraper/notify.py` reports problems in an issue labelled `timetable-health` (closed when fixed)
+  and changes as comments on an issue labelled `timetable-changes`.
+- Optional: secret `NTFY_TOPIC` for ntfy.sh phone push; variable `WATCH_GROUPS` (comma-separated
+  slugs, e.g. `m-26-04-eng-october`) to only be notified about those groups.
+
 ## Setup
 
 Settings → Pages → Source: **GitHub Actions**. Scheduled workflows only run on the default branch.

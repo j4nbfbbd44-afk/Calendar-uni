@@ -6,12 +6,13 @@ on:
   workflow_dispatch:
   push:
     branches: [main, master, "claude/**"]
-    paths: ["scraper/**", "site/**", ".github/workflows/**"]
+    paths: ["scraper/**", "site/**", "tests/**", ".github/workflows/**"]
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: timetable
@@ -20,6 +21,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      notify: ${{ steps.notify.outcome }}
     steps:
       - uses: actions/checkout@v7
 
@@ -27,17 +30,34 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch and parse the published sheet
-        run: python3 scraper/timetable.py fetch || echo "::warning::fetch failed, publishing last good data"
+      # Parser regression tests on a sanitized copy of the real sheet.
+      # If these fail, nothing is fetched or deployed and GitHub emails you.
+      - name: Tests
+        run: python3 -m unittest discover -s tests -v
 
-      - name: Commit new or changed weeks
+      # Never fails the job: problems go into _report/report.json for the notifier.
+      - name: Fetch and parse the published sheet
+        run: python3 scraper/timetable.py fetch || true
+
+      - name: Notify (GitHub issues / ntfy)
+        id: notify
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          WATCH_GROUPS: ${{ vars.WATCH_GROUPS }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python3 scraper/notify.py
+
+      - name: Commit data changes
         run: |
           git config user.name "timetable-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/weeks
+          git add data
           if ! git diff --cached --quiet; then
             git commit -m "Update timetable data"
-            git push
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
 
       - name: Build site and feeds
@@ -46,7 +66,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
-
 
   # Separate job: deploy-pages lists the run's artifacts, and an artifact
   # uploaded in the same job may not be listed yet (race seen in practice).
@@ -59,3 +78,14 @@ jobs:
     steps:
       - id: deploy
         uses: actions/deploy-pages@v5
+
+  # Notification failures must not block the deploy, but should still turn
+  # the run red so GitHub emails you about it.
+  notification-check:
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.notify == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::Sending notifications failed; see the 'Notify' step of the build job."
+          exit 1

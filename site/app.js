@@ -90,7 +90,7 @@
     document.title = group.name + " · Timetable";
     weekKeys = Object.keys(group.weeks).sort();
     weekPos = currentWeekPos();
-    renderToday(); renderWeek(); renderSubscribe();
+    renderToday(); renderWeek(); renderSubscribe(); renderChanges();
   }
 
   function currentWeekPos() {
@@ -193,6 +193,16 @@
         (evs.length ? '<ul class="daylist">' + evs.map((e) => `<li><span class="t">${e.start}–${e.end}</span><span><span class="loc">${esc(e.location || "—")}</span> · ${esc(e.text)}${kindTag(e.kind)}</span></li>`).join("") + "</ul>"
           : '<div class="empty">No classes</div>');
     }).join("");
+  }
+
+  function renderChanges() {
+    const cs = (group.changes || []).slice().reverse();
+    $("changes").hidden = cs.length === 0;
+    const label = { added: "Added", removed: "Removed", changed: "Changed", group_added: "New group", group_removed: "Group removed" };
+    $("changelist").innerHTML = cs.map((c) =>
+      `<li><span class="when">${esc(new Date(c.at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }))}</span>
+       <span class="kind ${esc(c.kind)}">${esc(label[c.kind] || c.kind)}</span> ${esc(c.text.replace("  ->  ", " → "))}
+       <span class="muted">(week of ${esc(fmtDate(c.week, { day: "numeric", month: "short" }))})</span></li>`).join("");
   }
 
   function renderSubscribe() {

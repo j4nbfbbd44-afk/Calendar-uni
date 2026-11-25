@@ -125,6 +125,15 @@ select, input {
   #thisweek { display: none; }
 }
 
+.changelist { list-style: none; margin: 8px 0 0; padding: 0; font-size: 14px; }
+.changelist li { padding: 6px 0; border-top: 1px solid var(--line); }
+.changelist li:first-child { border-top: 0; }
+.changelist .when { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+.changelist .kind { font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 999px; background: var(--bg); margin-right: 4px; }
+.changelist .kind.added { color: var(--ev-pe-line); }
+.changelist .kind.removed { color: var(--now); }
+.changelist .kind.changed { color: var(--ev-lecture-line); }
+
 .feedrow { display: flex; gap: 8px; margin: 10px 0; }
 .feedrow input { flex: 1; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; }
 .subs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }

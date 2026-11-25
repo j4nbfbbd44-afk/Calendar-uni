@@ -253,6 +253,7 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
     tc0 = time_cols[0]
     slot_rows = [r for r in range(g.nrows) if SLOT_RE.match(g.text(r, tc0))]
     first_row, last_row = slot_rows[0], slot_rows[-1]
+    warnings: list[str] = []
 
     # Header row with group names: the nearest row above first_row that has
     # non-empty text in most columns. Program titles sit one row above that.
@@ -278,6 +279,15 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
 
     day_cols = {tc: tc - 1 for tc in time_cols}
 
+    # Layout checks: every block should label the same rows with slots and days.
+    for tc in time_cols:
+        rows = [r for r in range(first_row, last_row + 1) if SLOT_RE.match(g.text(r, tc))]
+        if rows != slot_rows:
+            warnings.append(f"Layout: time column {tc} labels {len(rows)} slots, first block labels {len(slot_rows)}")
+        bad_days = {g.text(r, tc - 1) for r in rows if day_index(g.text(r, tc - 1)) is None}
+        if bad_days:
+            warnings.append(f"Layout: unrecognised day label(s) {sorted(bad_days)!r} next to time column {tc}")
+
     groups = {}
     used_slugs = set()
     for c in range(end_col):
@@ -299,6 +309,8 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
         while slug in used_slugs:
             slug, n = f"{base}-{n}", n + 1
         used_slugs.add(slug)
+        if slug != base:
+            warnings.append(f"Duplicate group name {name!r}; feed published as {slug}")
         groups[slug] = {"slug": slug, "name": name, "program": program, "col": c, "tc": tc}
 
     events_by_group: dict[str, list] = {}
@@ -310,13 +322,17 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
         cur = None  # (day, cellobj, start, end)
         for r in range(first_row, last_row + 1):
             m = SLOT_RE.match(g.text(r, tc))
+            cell = g.cov.get((r, c))
+            txt = cell["t"] if cell else ""
             if not m:
+                if txt:
+                    warnings.append(f"{info['name']}: skipped {txt!r} (row {r + 1} has no time label)")
                 cur = _flush(cur, evs)
                 continue
             di = day_index(g.text(r, dcol))
-            cell = g.cov.get((r, c))
-            txt = cell["t"] if cell else ""
             if di is None or not txt:
+                if txt:
+                    warnings.append(f"{info['name']}: skipped {txt!r} (row {r + 1} has no recognisable day)")
                 cur = _flush(cur, evs)
                 continue
             start = (int(m.group(1)), int(m.group(2)))
@@ -352,7 +368,19 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
             sh, sm, eh, em = *e["start"], *e["end"]
             m = INLINE_TIME_RE.search(text)
             if m:  # explicit time inside the cell overrides the grid slots
-                sh, sm, eh, em = (int(x) for x in m.groups())
+                ish, ism, ieh, iem = (int(x) for x in m.groups())
+                grid_s, grid_e = sh * 60 + sm, eh * 60 + em
+                in_s, in_e = ish * 60 + ism, ieh * 60 + iem
+                day = DAY_KEYS[e["day"]][0].title()
+                if not (6 * 60 <= in_s < in_e <= 22 * 60):
+                    warnings.append(f"{info['name']}: {day} {text!r} has an impossible time; using grid slots "
+                                    f"{sh:02d}:{sm:02d}-{eh:02d}:{em:02d}")
+                else:
+                    if abs(in_s - grid_s) > 90 or abs(in_e - grid_e) > 90:
+                        warnings.append(f"{info['name']}: {day} {text!r} written time differs from its grid "
+                                        f"slots ({sh:02d}:{sm:02d}-{eh:02d}:{em:02d}) by more than 90 min; "
+                                        f"using the written time")
+                    sh, sm, eh, em = ish, ism, ieh, iem
             shared = [groups[col_to_slug[cc]]["name"] for cc in e["shared_cols"]
                       if cc in col_to_slug and col_to_slug[cc] != slug]
             evs.append({
@@ -364,10 +392,18 @@ def parse_week(sheet_html: str, tab_name: str, title: str) -> dict:
                 "kind": classify(text),
                 "shared_with": shared,
             })
+        ordered = sorted(evs, key=lambda e: (e["day"], e["start"]))
+        for a, b in zip(ordered, ordered[1:]):
+            if a["day"] == b["day"] and b["start"] < a["end"]:
+                warnings.append(f"{info['name']}: overlapping classes on {DAY_KEYS[a['day']][0].title()}: "
+                                f"{a['start']}-{a['end']} {a['text']!r} and {b['start']}-{b['end']} {b['text']!r}")
+        for e in evs:
+            if not e["location"]:
+                warnings.append(f"{info['name']}: no room found in {e['text']!r}")
         out_groups.append({"slug": slug, "name": info["name"], "program": info["program"],
                            "events": evs, "notes": notes_by_group[slug]})
     return {"tab": tab_name, "title": title, "week_start": ws.isoformat() if ws else None,
-            "groups": out_groups}
+            "groups": out_groups, "warnings": sorted(set(warnings))}
 
 
 def _cell_cols(cell):
@@ -383,39 +419,136 @@ def _flush(cur, evs):
 # --------------------------------------------------------------------------
 # Commands
 # --------------------------------------------------------------------------
+REPORT = ROOT / "_report" / "report.json"
+CHANGES = ROOT / "data" / "changes.json"
+MAX_CHANGES = 1000
+
+
+def _ev_key(e):
+    return (e["day"], e["start"], e["end"], e["text"])
+
+
+def _fmt_ev(e):
+    return f"{DAY_KEYS[e['day']][0].title()} {e['start']}-{e['end']} {e['text']}"
+
+
+def diff_weeks(old: dict, new: dict) -> list[dict]:
+    """Per-group differences between two parsed weeks (events compared by day/time/text)."""
+    out = []
+    old_g = {g["slug"]: g for g in old["groups"]}
+    new_g = {g["slug"]: g for g in new["groups"]}
+    for slug in sorted(set(old_g) - set(new_g)):
+        out.append({"group": slug, "name": old_g[slug]["name"], "kind": "group_removed",
+                    "text": f"Group {old_g[slug]['name']!r} is no longer in the sheet"})
+    for slug in sorted(set(new_g) - set(old_g)):
+        out.append({"group": slug, "name": new_g[slug]["name"], "kind": "group_added",
+                    "text": f"New group {new_g[slug]['name']!r}"})
+    for slug in sorted(set(old_g) & set(new_g)):
+        a = {_ev_key(e): e for e in old_g[slug]["events"]}
+        b = {_ev_key(e): e for e in new_g[slug]["events"]}
+        removed = [a[k] for k in a if k not in b]
+        added = [b[k] for k in b if k not in a]
+        # Pair removed/added at the same day+start as a change.
+        for r in list(removed):
+            match = next((x for x in added if x["day"] == r["day"] and x["start"] == r["start"]), None)
+            if match:
+                removed.remove(r)
+                added.remove(match)
+                out.append({"group": slug, "name": new_g[slug]["name"], "kind": "changed",
+                            "text": f"{_fmt_ev(r)}  ->  {match['start']}-{match['end']} {match['text']}"})
+        for r in removed:
+            out.append({"group": slug, "name": new_g[slug]["name"], "kind": "removed", "text": _fmt_ev(r)})
+        for x in added:
+            out.append({"group": slug, "name": new_g[slug]["name"], "kind": "added", "text": _fmt_ev(x)})
+    return out
+
+
+def _monday(d: dt.date) -> dt.date:
+    return d - dt.timedelta(days=d.weekday())
+
+
 def cmd_fetch() -> int:
+    """Fetch + parse. Always writes _report/report.json describing what happened."""
     DATA.mkdir(parents=True, exist_ok=True)
+    report = {"errors": [], "warnings": [], "changes": [], "weeks_updated": []}
+    try:
+        rc = _fetch(report)
+    except Exception as e:  # network errors etc.
+        report["errors"].append(f"Fetch crashed: {type(e).__name__}: {e}")
+        rc = 1
+
+    # Stale sheet: by Monday midday (UTC+5) the current week should be published.
+    now_local = dt.datetime.now(dt.timezone.utc) + UTC_OFFSET
+    weeks = sorted(p.stem for p in DATA.glob("*.json"))
+    this_monday = _monday(now_local.date())
+    if weeks and dt.date.fromisoformat(weeks[-1]) < this_monday and not (
+            now_local.weekday() == 0 and now_local.hour < 12):
+        report["warnings"].append(
+            f"No timetable recorded for the week of {this_monday.isoformat()} yet (latest is {weeks[-1]}). "
+            "The new week's tab may not be published; feeds show a projection of the old week.")
+
+    REPORT.parent.mkdir(exist_ok=True)
+    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
+    for k in ("errors", "warnings"):
+        for line in report[k]:
+            print(f"{k[:-1].upper()}: {line}", file=sys.stderr)
+    print(f"{len(report['changes'])} change(s)")
+    return rc
+
+
+def _fetch(report: dict) -> int:
     index = http_get(f"{PUB_BASE}/pubhtml")
     title = doc_title(index)
     tabs = list_tabs(index)
     if not tabs:
-        print("no published tabs found", file=sys.stderr)
+        report["errors"].append("No published tabs found on the sheet's publish page")
         return 1
     ok = 0
     for tab in tabs:
         if not WEEK_RE.search(tab["name"]):
-            print(f"skip tab without a week range: {tab['name']!r}")
+            report["warnings"].append(f"Ignored published tab without a week range: {tab['name']!r}")
             continue
         sheet = http_get(f"{PUB_BASE}/pubhtml/sheet?headers=false&gid={tab['gid']}")
         try:
             week = parse_week(sheet, tab["name"], title)
         except Exception as e:  # keep last good data
-            print(f"parse failed for {tab['name']!r}: {e}", file=sys.stderr)
+            report["errors"].append(f"Parse failed for tab {tab['name']!r}: {e}. Keeping last good data.")
             continue
+        warnings = week.pop("warnings", [])
+        report["warnings"] += [f"[{tab['name']}] {w}" for w in warnings]
         n_ev = sum(len(g["events"]) for g in week["groups"])
         if len(week["groups"]) < MIN_GROUPS or n_ev == 0 or not week["week_start"]:
-            print(f"suspicious parse for {tab['name']!r}: {len(week['groups'])} groups, {n_ev} events; not saved",
-                  file=sys.stderr)
+            report["errors"].append(
+                f"Suspicious parse for tab {tab['name']!r}: {len(week['groups'])} groups, {n_ev} events, "
+                f"week start {week['week_start']}. Not saved; keeping last good data.")
             continue
         path = DATA / f"{week['week_start']}.json"
         new = json.dumps(week, ensure_ascii=False, indent=1, sort_keys=True)
         old = path.read_text(encoding="utf-8") if path.exists() else None
-        if old != new:
-            path.write_text(new, encoding="utf-8")
-            print(f"updated {path.name}: {len(week['groups'])} groups, {n_ev} events")
-        else:
-            print(f"unchanged {path.name}")
         ok += 1
+        if old == new:
+            print(f"unchanged {path.name}")
+            continue
+        # What do we compare against? The same week if we had it, else the latest
+        # earlier week (what the feeds were projecting).
+        if old is not None:
+            base, why = json.loads(old), "updated"
+        else:
+            prev = sorted(p for p in DATA.glob("*.json") if p.stem < week["week_start"])
+            base = json.loads(prev[-1].read_text(encoding="utf-8")) if prev else None
+            why = f"new week vs {prev[-1].stem}" if prev else "first week"
+        changes = diff_weeks(base, week) if base else []
+        stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        for c in changes:
+            c.update({"week": week["week_start"], "at": stamp, "why": why})
+        report["changes"] += changes
+        report["weeks_updated"].append(week["week_start"])
+        path.write_text(new, encoding="utf-8")
+        print(f"{why}: {path.name}: {len(week['groups'])} groups, {n_ev} events, {len(changes)} changes")
+    if report["changes"]:
+        log = json.loads(CHANGES.read_text(encoding="utf-8")) if CHANGES.exists() else []
+        log = (log + report["changes"])[-MAX_CHANGES:]
+        CHANGES.write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     return 0 if ok else 1
 
 
@@ -527,12 +660,15 @@ def cmd_build() -> int:
                         for g in sorted(groups.values(), key=lambda g: (g["program"], g["name"]))]}
     (OUT / "data" / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
+    log = json.loads(CHANGES.read_text(encoding="utf-8")) if CHANGES.exists() else []
     for slug, g in groups.items():
+        g_changes = [{k: c[k] for k in ("at", "week", "kind", "text")} for c in log if c["group"] == slug][-30:]
         weeks_out = {ws: {"events": [{k: v for k, v in e.items() if k != "stamp"} for e in wk["events"]],
                           "notes": wk["notes"], "projected": wk["projected"]}
                      for ws, wk in sorted(g["weeks"].items())}
         (OUT / "data" / f"{slug}.json").write_text(
-            json.dumps({"slug": slug, "name": g["name"], "program": g["program"], "weeks": weeks_out},
+            json.dumps({"slug": slug, "name": g["name"], "program": g["program"], "weeks": weeks_out,
+                        "changes": g_changes},
                        ensure_ascii=False), encoding="utf-8")
         all_events = [e for wk in g["weeks"].values() for e in wk["events"]]
         (OUT / "ics" / f"{slug}.ics").write_text(build_ics(g["name"], slug, all_events),
