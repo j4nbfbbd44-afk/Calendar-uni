@@ -42,6 +42,11 @@ UTC_OFFSET = dt.timedelta(hours=5)
 # and keep the last good data instead of publishing garbage.
 MIN_GROUPS = 10
 
+# The sheet is a repeating weekly timetable. Weeks after the latest recorded
+# one are projected by copying it forward; a real recording replaces the
+# projection as soon as it is fetched.
+PROJECT_WEEKS = int(os.environ.get("TIMETABLE_PROJECT_WEEKS", "8"))
+
 DAY_KEYS = [
     ("mon", ("пн", "mon")),
     ("tue", ("вт", "tue")),
@@ -447,6 +452,8 @@ def build_ics(name: str, slug: str, events: list[dict]) -> str:
         desc = e["text"]
         if e["shared_with"]:
             desc += "\nShared with: " + ", ".join(e["shared_with"])
+        if e.get("projected"):
+            desc += "\nProjected from the current weekly timetable; may change."
         desc += "\nUnofficial feed - check the official timetable if in doubt."
         lines += [
             "BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{e['stamp']}",
@@ -490,11 +497,31 @@ def cmd_build() -> int:
                 e2["date"] = (ws + dt.timedelta(days=e["day"])).isoformat()
                 e2["stamp"] = stamp
                 evs.append(e2)
-            entry["weeks"][w["week_start"]] = {"events": evs, "notes": g.get("notes", [])}
+            entry["weeks"][w["week_start"]] = {"events": evs, "notes": g.get("notes", []), "projected": False}
+
+    # Project the latest recorded week forward.
+    latest = weeks[-1]
+    latest_ws = dt.date.fromisoformat(latest["week_start"])
+    latest_slugs = {g["slug"] for g in latest["groups"]}
+    projected_keys = []
+    for k in range(1, PROJECT_WEEKS + 1):
+        ws = latest_ws + dt.timedelta(weeks=k)
+        key = ws.isoformat()
+        projected_keys.append(key)
+        for slug in latest_slugs:
+            src = groups[slug]["weeks"][latest["week_start"]]
+            evs = []
+            for e in src["events"]:
+                e2 = dict(e)
+                e2["date"] = (ws + dt.timedelta(days=e["day"])).isoformat()
+                e2["projected"] = True
+                evs.append(e2)
+            groups[slug]["weeks"][key] = {"events": evs, "notes": src["notes"], "projected": True}
 
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     index = {"generated": now, "tz": TZID, "utc_offset_minutes": int(UTC_OFFSET.total_seconds() // 60),
-             "weeks": [w["week_start"] for w in weeks],
+             "weeks": [w["week_start"] for w in weeks] + projected_keys,
+             "latest_recorded": latest["week_start"],
              "source": f"{PUB_BASE}/pubhtml",
              "groups": [{"slug": g["slug"], "name": g["name"], "program": g["program"]}
                         for g in sorted(groups.values(), key=lambda g: (g["program"], g["name"]))]}
@@ -502,7 +529,8 @@ def cmd_build() -> int:
 
     for slug, g in groups.items():
         weeks_out = {ws: {"events": [{k: v for k, v in e.items() if k != "stamp"} for e in wk["events"]],
-                          "notes": wk["notes"]} for ws, wk in g["weeks"].items()}
+                          "notes": wk["notes"], "projected": wk["projected"]}
+                     for ws, wk in sorted(g["weeks"].items())}
         (OUT / "data" / f"{slug}.json").write_text(
             json.dumps({"slug": slug, "name": g["name"], "program": g["program"], "weeks": weeks_out},
                        ensure_ascii=False), encoding="utf-8")

@@ -104,6 +104,8 @@ select, input {
   background: var(--ev); border-left: 3px solid var(--ev-line); font-size: 12px; line-height: 1.25; }
 .ev.lecture { background: var(--ev-lecture); border-left-color: var(--ev-lecture-line); }
 .ev.pe { background: var(--ev-pe); border-left-color: var(--ev-pe-line); }
+.ev.projected { border-left-style: dashed; opacity: .85; }
+.proj { margin: 6px 0 0; font-size: 13px; }
 .ev b { display: block; font-size: 12px; }
 .ev .tm { color: var(--muted); font-variant-numeric: tabular-nums; }
 .nowline { position: absolute; left: 0; right: 0; height: 2px; background: var(--now); z-index: 1; }

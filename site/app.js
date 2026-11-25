@@ -113,7 +113,9 @@
     const today = isoDate(now);
     const nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
     const evs = eventsOn(today);
-    const head = `<div class="today-head"><h2>Today · ${esc(fmtDate(today, { weekday: "long", day: "numeric", month: "long" }))}</h2><span class="muted">${esc(group.name)}</span></div>`;
+    const wkToday = group.weeks[mondayOf(now)];
+    const head = `<div class="today-head"><h2>Today · ${esc(fmtDate(today, { weekday: "long", day: "numeric", month: "long" }))}</h2><span class="muted">${esc(group.name)}</span></div>` +
+      (wkToday && wkToday.projected ? '<p class="muted proj">Projected from the weekly timetable — this week\'s sheet hasn\'t been fetched yet.</p>' : "");
 
     if (evs === null) {
       $("today").innerHTML = head + '<p class="muted">No timetable published for this week yet.</p>';
@@ -156,7 +158,8 @@
     $("next").disabled = weekPos >= weekKeys.length - 1;
     $("weeklabel").textContent = `${fmtDate(key, { day: "numeric", month: "short" })} – ${fmtDate(addDays(key, 5), { day: "numeric", month: "short", year: "numeric" })}`;
     const curMon = mondayOf(nowTT());
-    $("weeknote").textContent = key === curMon ? "This week" : key < curMon ? "Past week" : "Upcoming week";
+    $("weeknote").textContent = (key === curMon ? "This week" : key < curMon ? "Past week" : "Upcoming week") +
+      (wk.projected ? " · projected from the current weekly timetable" : "");
     $("notes").innerHTML = (wk.notes || []).map((n) => `<div class="note">Also this week (no fixed time): ${esc(n)}</div>`).join("");
 
     const now = nowTT(), today = isoDate(now), nowMin = now.getUTCHours() * 60 + now.getUTCMinutes();
@@ -173,7 +176,7 @@
       html += `<div class="col ${d === today ? "is-today" : ""}" style="height:${height}px">`;
       for (const e of evs) {
         const t = top(mins(e.start)), h = Math.max(top(mins(e.end)) - t - 2, 18);
-        html += `<div class="ev ${e.kind}" style="top:${t + 1}px;height:${h}px" title="${esc(e.text + (e.shared_with.length ? "\nShared with: " + e.shared_with.join(", ") : ""))}">
+        html += `<div class="ev ${e.kind}${wk.projected ? " projected" : ""}" style="top:${t + 1}px;height:${h}px" title="${esc(e.text + (e.shared_with.length ? "\nShared with: " + e.shared_with.join(", ") : ""))}">
           <b>${esc(e.location || "—")}</b><span class="tm">${e.start}–${e.end}</span><br>${esc(e.text)}</div>`;
       }
       if (d === today && nowMin >= START_H * 60 && nowMin <= END_H * 60) html += `<div class="nowline" style="top:${top(nowMin)}px"></div>`;

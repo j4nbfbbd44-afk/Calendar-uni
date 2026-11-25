@@ -30,6 +30,8 @@ WhatsApp links) and the teacher/room occupancy matrices are ignored on purpose.
 - Consecutive identical hourly cells are merged into one event.
 - Year comes from the document title (`2026-2027`: Aug–Dec → 2026, Jan–Jul → 2027).
 - Times are Asia/Almaty (UTC+5).
+- The sheet is a repeating weekly timetable: the latest recorded week is projected forward
+  `TIMETABLE_PROJECT_WEEKS` weeks (default 8). Recorded weeks always win over projections.
 - Room/location is extracted best effort; the event title always keeps the original cell text.
 
 ## Run locally
