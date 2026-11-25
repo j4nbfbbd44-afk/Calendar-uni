@@ -37,6 +37,8 @@ RUN_URL = (f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{REPO}/
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 SITE_URL = os.environ.get("SITE_URL", "").strip()
+# GitHub user to @mention so alerts reach email / the GitHub app (mentions notify by default).
+MENTION = os.environ.get("NOTIFY_MENTION", "").strip().lstrip("@")
 WATCH = [w.strip().lower() for w in os.environ.get("WATCH_GROUPS", "").split(",") if w.strip()]
 
 failures: list[str] = []
@@ -84,6 +86,13 @@ def close_issue(label: str, comment: str):
         gh("PATCH", f"/repos/{REPO}/issues/{issue['number']}", {"state": "closed", "state_reason": "completed"})
 
 
+def gh_test_issue(body: str):
+    ensure_label("timetable-test", "c5def5", "Test notifications")
+    issue = gh("POST", f"/repos/{REPO}/issues",
+               {"title": "Timetable: test notification", "body": body, "labels": ["timetable-test"]})
+    gh("PATCH", f"/repos/{REPO}/issues/{issue['number']}", {"state": "closed", "state_reason": "completed"})
+
+
 def ntfy(title: str, message: str, priority: str = "default", tags: str = ""):
     if not NTFY_TOPIC:
         return
@@ -113,7 +122,19 @@ def main() -> int:
         report = {"errors": ["The scraper crashed before writing its report; see the workflow log."],
                   "warnings": [], "changes": []}
     github = bool(TOKEN and REPO)
-    footer = f"\n\n[Workflow run]({RUN_URL})" + (f" · [Website]({SITE_URL})" if SITE_URL else "")
+    footer = (f"\n\n[Workflow run]({RUN_URL})" + (f" · [Website]({SITE_URL})" if SITE_URL else "")
+              + (f"\n\ncc @{MENTION}" if MENTION else ""))
+
+    if "--test" in sys.argv:
+        msg = "Test notification from the timetable scraper. If you can read this, alerts reach you here."
+        if github:
+            attempt("GitHub test issue", gh_test_issue, msg + footer)
+        attempt("ntfy test", ntfy, "Timetable: test notification", msg, "default", "bell")
+        if not NTFY_TOPIC:
+            print("ntfy: skipped (no NTFY_TOPIC secret set)")
+        for f in failures:
+            print(f"NOTIFY FAILED: {f}", file=sys.stderr)
+        return 1 if failures else 0
 
     # ---- health --------------------------------------------------------
     names = report.get("groups", {})  # group name -> slug

@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours (GitHub may start it late)
   workflow_dispatch:
+    inputs:
+      test_notification:
+        description: "Send a test notification (GitHub + ntfy) and do nothing else"
+        type: boolean
+        default: false
   push:
     branches: [main, master, "claude/**"]
     paths: ["scraper/**", "site/**", "tests/**", ".github/workflows/**"]
@@ -22,7 +27,9 @@ jobs:
   build:
     # Only the default branch fetches, notifies and deploys. Otherwise two branches
     # would send duplicate notifications and overwrite each other's site.
-    if: github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch
+    if: >-
+      !inputs.test_notification &&
+      (github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     outputs:
       notify: ${{ steps.notify.outcome }}
@@ -51,6 +58,7 @@ jobs:
           # Only notify about this group (repo variable WATCH_GROUPS overrides).
           WATCH_GROUPS: ${{ vars.WATCH_GROUPS || 'm-26-04-eng-october' }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          NOTIFY_MENTION: ${{ vars.NOTIFY_MENTION || github.repository_owner }}
         run: python3 scraper/notify.py
 
       - name: Commit data changes
@@ -93,3 +101,16 @@ jobs:
       - run: |
           echo "::error::Sending notifications failed; see the 'Notify' step of the build job."
           exit 1
+
+  test-notification:
+    if: inputs.test_notification
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Send test notification
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          NOTIFY_MENTION: ${{ vars.NOTIFY_MENTION || github.repository_owner }}
+        run: python3 scraper/notify.py --test
