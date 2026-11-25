@@ -66,15 +66,6 @@
     },
     {
      "day": 2,
-     "end": "17:00",
-     "kind": "",
-     "location": "Room 320",
-     "shared_with": [],
-     "start": "13:00",
-     "text": "Фарм. биотех №320 Айтжан"
-    },
-    {
-     "day": 2,
      "end": "20:00",
      "kind": "",
      "location": "Room 116",
@@ -3369,10 +3360,10 @@
      "day": 2,
      "end": "17:00",
      "kind": "",
-     "location": "Room 220",
+     "location": "Room 222",
      "shared_with": [],
      "start": "14:00",
-     "text": "D&H: Immun. Sarsenova №220"
+     "text": "D&H: Immun. Sarsenova №222"
     },
     {
      "day": 3,
@@ -5182,6 +5173,15 @@
      "shared_with": [],
      "start": "09:00",
      "text": "ҒЗӘ №308 Жактаева сем"
+    },
+    {
+     "day": 4,
+     "end": "17:00",
+     "kind": "",
+     "location": "Room 308",
+     "shared_with": [],
+     "start": "13:00",
+     "text": "Анатомия Мукашева №308"
     },
     {
      "day": 5,
