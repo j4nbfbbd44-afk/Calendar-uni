@@ -830,15 +830,6 @@
     },
     {
      "day": 4,
-     "end": "11:00",
-     "kind": "seminar",
-     "location": "Room 316",
-     "shared_with": [],
-     "start": "09:00",
-     "text": "MBP pharma sem Seitalieva №316"
-    },
-    {
-     "day": 4,
      "end": "16:20",
      "kind": "pe",
      "location": "спорт комплекс",
@@ -866,6 +857,15 @@
      "shared_with": [],
      "start": "10:00",
      "text": "Patfiz Bimagambetova №220"
+    },
+    {
+     "day": 5,
+     "end": "14:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "12:00",
+     "text": "MBP pharma sem Seitalieva №316"
     }
    ],
    "name": "M spring 25-02 eng",
@@ -982,15 +982,6 @@
     },
     {
      "day": 4,
-     "end": "13:00",
-     "kind": "seminar",
-     "location": "Room 316",
-     "shared_with": [],
-     "start": "11:00",
-     "text": "MBP pharma sem Seitalieva №316"
-    },
-    {
-     "day": 4,
      "end": "16:20",
      "kind": "pe",
      "location": "спорт комплекс",
@@ -1009,6 +1000,15 @@
      "shared_with": [],
      "start": "08:00",
      "text": "Patfiz Bimagambetova №220"
+    },
+    {
+     "day": 5,
+     "end": "12:00",
+     "kind": "seminar",
+     "location": "Room 316",
+     "shared_with": [],
+     "start": "10:00",
+     "text": "MBP pharma sem Seitalieva №316"
     }
    ],
    "name": "M spring 25-03 eng",

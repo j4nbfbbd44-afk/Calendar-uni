@@ -151,5 +151,41 @@
   "week": "2026-11-23",
   "at": "2026-11-26T07:28:44+00:00",
   "why": "updated"
+ },
+ {
+  "group": "m-spring-25-02-eng",
+  "name": "M spring 25-02 eng",
+  "kind": "removed",
+  "text": "Fri 09:00-11:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-26T13:28:15+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-02-eng",
+  "name": "M spring 25-02 eng",
+  "kind": "added",
+  "text": "Sat 12:00-14:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-26T13:28:15+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-03-eng",
+  "name": "M spring 25-03 eng",
+  "kind": "removed",
+  "text": "Fri 11:00-13:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-26T13:28:15+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-03-eng",
+  "name": "M spring 25-03 eng",
+  "kind": "added",
+  "text": "Sat 10:00-12:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-26T13:28:15+00:00",
+  "why": "updated"
  }
 ]
