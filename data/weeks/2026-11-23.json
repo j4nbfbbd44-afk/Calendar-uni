@@ -450,10 +450,10 @@
      "day": 5,
      "end": "14:00",
      "kind": "",
-     "location": "Room 308",
+     "location": "Room 320",
      "shared_with": [],
      "start": "11:00",
-     "text": "Фармакология №308 Сейталиева"
+     "text": "Фармакология №320 Сейталиева"
     }
    ],
    "name": "Ф 24-01 каз",
@@ -1670,10 +1670,10 @@
      "day": 5,
      "end": "12:00",
      "kind": "",
-     "location": "Room 307",
+     "location": "Room 311",
      "shared_with": [],
      "start": "08:00",
-     "text": "МиФ анат Ибышева №307"
+     "text": "МиФ анат Ибышева №311"
     },
     {
      "day": 5,
@@ -2444,10 +2444,10 @@
      "day": 5,
      "end": "11:00",
      "kind": "",
-     "location": "Room 211",
+     "location": "Room 212",
      "shared_with": [],
      "start": "08:00",
-     "text": "D&H: Biochem Yeszhanova №211"
+     "text": "D&H: Biochem Yeszhanova №212"
     },
     {
      "day": 5,
