@@ -448,11 +448,11 @@
     },
     {
      "day": 5,
-     "end": "14:00",
+     "end": "12:00",
      "kind": "",
      "location": "Room 320",
      "shared_with": [],
-     "start": "11:00",
+     "start": "09:00",
      "text": "Фармакология №320 Сейталиева"
     }
    ],
@@ -1003,11 +1003,11 @@
     },
     {
      "day": 5,
-     "end": "12:00",
+     "end": "14:00",
      "kind": "seminar",
      "location": "Room 316",
      "shared_with": [],
-     "start": "10:00",
+     "start": "12:00",
      "text": "MBP pharma sem Seitalieva №316"
     }
    ],
@@ -6690,11 +6690,11 @@
     },
     {
      "day": 4,
-     "end": "18:00",
+     "end": "13:00",
      "kind": "",
      "location": "Сим центр",
      "shared_with": [],
-     "start": "15:00",
+     "start": "10:00",
      "text": "Клин. стат әдіс Уалиева А.Сим центр"
     },
     {

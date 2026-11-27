@@ -187,5 +187,59 @@
   "week": "2026-11-23",
   "at": "2026-11-26T13:28:15+00:00",
   "why": "updated"
+ },
+ {
+  "group": "f-24-01-kaz",
+  "name": "Ф 24-01 каз",
+  "kind": "removed",
+  "text": "Sat 11:00-14:00 Фармакология №320 Сейталиева",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "f-24-01-kaz",
+  "name": "Ф 24-01 каз",
+  "kind": "added",
+  "text": "Sat 09:00-12:00 Фармакология №320 Сейталиева",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "f-26-01-mag-qazan",
+  "name": "Ф 26-01 маг қазан",
+  "kind": "removed",
+  "text": "Fri 15:00-18:00 Клин. стат әдіс Уалиева А.Сим центр",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "f-26-01-mag-qazan",
+  "name": "Ф 26-01 маг қазан",
+  "kind": "added",
+  "text": "Fri 10:00-13:00 Клин. стат әдіс Уалиева А.Сим центр",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-03-eng",
+  "name": "M spring 25-03 eng",
+  "kind": "removed",
+  "text": "Sat 10:00-12:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-03-eng",
+  "name": "M spring 25-03 eng",
+  "kind": "added",
+  "text": "Sat 12:00-14:00 MBP pharma sem Seitalieva №316",
+  "week": "2026-11-23",
+  "at": "2026-11-27T13:23:49+00:00",
+  "why": "updated"
  }
 ]
