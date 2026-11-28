@@ -862,10 +862,10 @@
      "day": 5,
      "end": "14:00",
      "kind": "seminar",
-     "location": "Room 316",
+     "location": "Room 220",
      "shared_with": [],
      "start": "12:00",
-     "text": "MBP pharma sem Seitalieva №316"
+     "text": "MBP pharma sem Seitalieva №220"
     }
    ],
    "name": "M spring 25-02 eng",
@@ -1005,10 +1005,10 @@
      "day": 5,
      "end": "14:00",
      "kind": "seminar",
-     "location": "Room 316",
+     "location": "Room 220",
      "shared_with": [],
      "start": "12:00",
-     "text": "MBP pharma sem Seitalieva №316"
+     "text": "MBP pharma sem Seitalieva №220"
     }
    ],
    "name": "M spring 25-03 eng",
@@ -5572,15 +5572,6 @@
      "shared_with": [],
      "start": "12:00",
      "text": "Anatomy sem Abish №106"
-    },
-    {
-     "day": 5,
-     "end": "18:00",
-     "kind": "seminar",
-     "location": "Room 314",
-     "shared_with": [],
-     "start": "15:00",
-     "text": "Biology sem №314 Alibekova"
     }
    ],
    "name": "M 26-04 eng october",

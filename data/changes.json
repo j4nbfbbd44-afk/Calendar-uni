@@ -241,5 +241,32 @@
   "week": "2026-11-23",
   "at": "2026-11-27T13:23:49+00:00",
   "why": "updated"
+ },
+ {
+  "group": "m-26-04-eng-october",
+  "name": "M 26-04 eng october",
+  "kind": "removed",
+  "text": "Sat 15:00-18:00 Biology sem №314 Alibekova",
+  "week": "2026-11-23",
+  "at": "2026-11-28T07:22:10+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-02-eng",
+  "name": "M spring 25-02 eng",
+  "kind": "changed",
+  "text": "Sat 12:00-14:00 MBP pharma sem Seitalieva №316  ->  12:00-14:00 MBP pharma sem Seitalieva №220",
+  "week": "2026-11-23",
+  "at": "2026-11-28T07:22:10+00:00",
+  "why": "updated"
+ },
+ {
+  "group": "m-spring-25-03-eng",
+  "name": "M spring 25-03 eng",
+  "kind": "changed",
+  "text": "Sat 12:00-14:00 MBP pharma sem Seitalieva №316  ->  12:00-14:00 MBP pharma sem Seitalieva №220",
+  "week": "2026-11-23",
+  "at": "2026-11-28T07:22:10+00:00",
+  "why": "updated"
  }
 ]
